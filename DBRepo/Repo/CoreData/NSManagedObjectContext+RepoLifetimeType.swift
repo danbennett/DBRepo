@@ -19,7 +19,7 @@ extension NSManagedObjectContext : RepoLifetimeType {
     }
     
     public func removeEntity(entity : EntityType) {
-        //
+        entity.delete()
     }
     
 }
