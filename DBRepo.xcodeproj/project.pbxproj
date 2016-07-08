@@ -10,9 +10,11 @@
 		FF9593921D30647000485E29 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9593911D30647000485E29 /* CoreData.framework */; };
 		FF9593951D3065B000485E29 /* DatabaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593941D3065B000485E29 /* DatabaseConnection.swift */; };
 		FF9593971D30679E00485E29 /* EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593961D30679E00485E29 /* EntityType.swift */; };
-		FF95939C1D30689000485E29 /* CoreDataConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95939B1D30689000485E29 /* CoreDataConnection.swift */; };
-		FF95939E1D30696C00485E29 /* NSManagedObjectContext+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95939D1D30696C00485E29 /* NSManagedObjectContext+name.swift */; };
-		FF9593A01D30699B00485E29 /* NSManagedObjectContext+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95939F1D30699B00485E29 /* NSManagedObjectContext+Notifications.swift */; };
+		FF9593A21D306AAB00485E29 /* RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */; };
+		FF9593A71D306AE800485E29 /* CoreDataConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A41D306AE800485E29 /* CoreDataConnection.swift */; };
+		FF9593A81D306AE800485E29 /* NSManagedObjectContext+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A51D306AE800485E29 /* NSManagedObjectContext+name.swift */; };
+		FF9593A91D306AE800485E29 /* NSManagedObjectContext+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */; };
+		FF9593AD1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */; };
 		FFD0D1671D306427008B7A7C /* DBRepo.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD0D1661D306427008B7A7C /* DBRepo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFD0D16E1D306427008B7A7C /* DBRepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD0D1631D306427008B7A7C /* DBRepo.framework */; };
 		FFD0D1731D306427008B7A7C /* DBRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD0D1721D306427008B7A7C /* DBRepoTests.swift */; };
@@ -32,9 +34,11 @@
 		FF9593911D30647000485E29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FF9593941D3065B000485E29 /* DatabaseConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
 		FF9593961D30679E00485E29 /* EntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityType.swift; sourceTree = "<group>"; };
-		FF95939B1D30689000485E29 /* CoreDataConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataConnection.swift; sourceTree = "<group>"; };
-		FF95939D1D30696C00485E29 /* NSManagedObjectContext+name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+name.swift"; sourceTree = "<group>"; };
-		FF95939F1D30699B00485E29 /* NSManagedObjectContext+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Notifications.swift"; sourceTree = "<group>"; };
+		FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoLifetimeType.swift; sourceTree = "<group>"; };
+		FF9593A41D306AE800485E29 /* CoreDataConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataConnection.swift; sourceTree = "<group>"; };
+		FF9593A51D306AE800485E29 /* NSManagedObjectContext+name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+name.swift"; sourceTree = "<group>"; };
+		FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Notifications.swift"; sourceTree = "<group>"; };
+		FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoLifetimeType.swift"; sourceTree = "<group>"; };
 		FFD0D1631D306427008B7A7C /* DBRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DBRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD0D1661D306427008B7A7C /* DBRepo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBRepo.h; sourceTree = "<group>"; };
 		FFD0D1681D306427008B7A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 				FF9593981D30683400485E29 /* CoreData */,
 				FF9593941D3065B000485E29 /* DatabaseConnection.swift */,
 				FF9593961D30679E00485E29 /* EntityType.swift */,
+				FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */,
 			);
 			path = Repo;
 			sourceTree = "<group>";
@@ -76,11 +81,20 @@
 		FF9593981D30683400485E29 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				FF95939B1D30689000485E29 /* CoreDataConnection.swift */,
-				FF95939D1D30696C00485E29 /* NSManagedObjectContext+name.swift */,
-				FF95939F1D30699B00485E29 /* NSManagedObjectContext+Notifications.swift */,
+				FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */,
+				FF9593A31D306ADC00485E29 /* Setup */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FF9593A31D306ADC00485E29 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				FF9593A41D306AE800485E29 /* CoreDataConnection.swift */,
+				FF9593A51D306AE800485E29 /* NSManagedObjectContext+name.swift */,
+				FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */,
+			);
+			path = Setup;
 			sourceTree = "<group>";
 		};
 		FFD0D1591D306427008B7A7C = {
@@ -229,11 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9593A21D306AAB00485E29 /* RepoLifetimeType.swift in Sources */,
 				FF9593971D30679E00485E29 /* EntityType.swift in Sources */,
-				FF95939C1D30689000485E29 /* CoreDataConnection.swift in Sources */,
-				FF95939E1D30696C00485E29 /* NSManagedObjectContext+name.swift in Sources */,
+				FF9593A91D306AE800485E29 /* NSManagedObjectContext+Notifications.swift in Sources */,
+				FF9593A71D306AE800485E29 /* CoreDataConnection.swift in Sources */,
 				FF9593951D3065B000485E29 /* DatabaseConnection.swift in Sources */,
-				FF9593A01D30699B00485E29 /* NSManagedObjectContext+Notifications.swift in Sources */,
+				FF9593AD1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */,
+				FF9593A81D306AE800485E29 /* NSManagedObjectContext+name.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
