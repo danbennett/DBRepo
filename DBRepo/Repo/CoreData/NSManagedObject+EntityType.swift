@@ -9,10 +9,9 @@
 import Foundation
 import CoreData
 
-public extension EntityType where Self : NSManagedObject {
-    
-    public func deleteEntity() {
-        self.managedObjectContext?.deleteObject(self)
+extension NSManagedObject : EntityType {
+    public static var className : String {
+        let components = NSStringFromClass(self).componentsSeparatedByString(".")
+        return components[1]
     }
-    
 }

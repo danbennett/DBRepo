@@ -10,5 +10,5 @@ import Foundation
 
 public protocol RepoLifetimeType {
     func addEntity<T : EntityType>(type : T.Type) throws -> T
-//    func removeEntity(entity : EntityType)
+    func removeEntity<T : EntityType>(entity : T) throws
 }

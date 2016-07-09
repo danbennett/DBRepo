@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		FF9593911D30647000485E29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		FF9593941D3065B000485E29 /* DatabaseConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
+		FF9593941D3065B000485E29 /* DatabaseConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseConnection.swift; path = ../DatabaseConnection.swift; sourceTree = "<group>"; };
 		FF9593961D30679E00485E29 /* EntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityType.swift; sourceTree = "<group>"; };
 		FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoLifetimeType.swift; sourceTree = "<group>"; };
 		FF9593A41D306AE800485E29 /* CoreDataConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataConnection.swift; sourceTree = "<group>"; };
@@ -73,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				FF9593981D30683400485E29 /* CoreData */,
-				FF9593941D3065B000485E29 /* DatabaseConnection.swift */,
 				FF9593961D30679E00485E29 /* EntityType.swift */,
 				FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */,
 			);
@@ -85,6 +84,7 @@
 			children = (
 				FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */,
 				FF9593AE1D306F7500485E29 /* NSManagedObject+EntityType.swift */,
+				FF9593941D3065B000485E29 /* DatabaseConnection.swift */,
 				FF9593A31D306ADC00485E29 /* Setup */,
 			);
 			path = CoreData;

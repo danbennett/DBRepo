@@ -10,5 +10,4 @@ import Foundation
 
 public protocol EntityType {
     static var className: String { get }
-    func delete()
 }

@@ -11,15 +11,19 @@ import CoreData
 
 extension NSManagedObjectContext : RepoLifetimeType {
     
+    public typealias Entity = NSManagedObject
+    
     public func addEntity<T : EntityType>(type : T.Type) throws -> T {
-        guard let obj = NSEntityDescription.insertNewObjectForEntityForName(type.className, inManagedObjectContext: self) as? T else {
+        guard let managedObject = NSEntityDescription.insertNewObjectForEntityForName(type.className, inManagedObjectContext: self) as? T else {
             throw NSError(domain: "co.uk.danbennett", code: 8001, userInfo: [NSLocalizedDescriptionKey : "No entity matches name \(type.className)"])
         }
-        return obj
+        return managedObject
     }
     
-    public func removeEntity(entity : EntityType) {
-        entity.delete()
+    public func removeEntity<T : EntityType>(entity : T) throws {
+        guard let managedObject = entity as? NSManagedObject else {
+            throw NSError(domain: "co.uk.danbennett", code: 8001, userInfo: [NSLocalizedDescriptionKey : "None NSManagedObject used in context \(entity)"])
+        }
+        self.deleteObject(managedObject)
     }
-    
 }
