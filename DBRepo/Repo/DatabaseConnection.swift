@@ -12,7 +12,3 @@ public protocol DatabaseConnection {
     init (storeName: String)
     func setup() throws
 }
-
-func repo_print(message : String, emoji : String = "") {
-    print("\(emoji) [HLRepo: \(message)]")
-}
