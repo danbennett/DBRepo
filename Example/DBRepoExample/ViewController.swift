@@ -7,17 +7,34 @@
 //
 
 import UIKit
+import DBRepo
 
 class ViewController: UIViewController {
 
+    var repo: protocol<RepoLifetimeType, RepoQueryType, RepoSavingType>!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        // Note: Use error handling!
+        
+        // 1. Fetch existing object...
+        let results = try! repo.fetch(Entity.self, predicate: nil)
+        
+        // If non exist ...
+        if results.count == 0 {
+            
+            // 2. Begin write.
+            repo.beginWrite()
+            
+            // 3. Create entity.
+            let entity = try! self.repo.addEntity(Entity)
+            entity.entityId = "unique id here"
+            
+            // 4. End write.
+            try! repo.endWrite()
+        }
+        
     }
 
 

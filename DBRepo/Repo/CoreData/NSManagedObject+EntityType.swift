@@ -12,8 +12,7 @@ import CoreData
 extension NSManagedObject : EntityType {
     
     public static var className : String {
-        let components = NSStringFromClass(self).componentsSeparatedByString(".")
-        return components[1]
+        return NSStringFromClass(self)
     }
     
 }

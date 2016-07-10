@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
   spec.default_subspec = 'Common'
 
   spec.subspec "Common" do |sp|
-    sp.source_files  = "DBRepo/Repo/*.{swift}"
+    sp.source_files  = "DBRepo/Repo/*.{swift}", "DBRepo/Repo/Global/*.{swift}"
   end
 
   spec.subspec "CoreData" do |sp|
-    sp.source_files = "DBRepo/Repo/CoreData/*.{swift}", "DBRepo/Repo/CoreData/Stack/*.{swift}"
+    sp.source_files = "DBRepo/Repo/CoreData/*.{swift}", "DBRepo/Repo/CoreData/Setup/*.{swift}"
     sp.dependency 'DBRepo/Common'
     sp.ios.deployment_target = "8.0"
   end

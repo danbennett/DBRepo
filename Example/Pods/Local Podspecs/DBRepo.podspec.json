@@ -19,13 +19,16 @@
   "subspecs": [
     {
       "name": "Common",
-      "source_files": "DBRepo/Repo/*.{swift}"
+      "source_files": [
+        "DBRepo/Repo/*.{swift}",
+        "DBRepo/Repo/Global/*.{swift}"
+      ]
     },
     {
       "name": "CoreData",
       "source_files": [
         "DBRepo/Repo/CoreData/*.{swift}",
-        "DBRepo/Repo/CoreData/Stack/*.{swift}"
+        "DBRepo/Repo/CoreData/Setup/*.{swift}"
       ],
       "dependencies": {
         "DBRepo/Common": [

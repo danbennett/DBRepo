@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BEDC651E125E15A6F2202187'
+               BlueprintIdentifier = '4C7E5ADD4EAE6548FD7989B6'
                BlueprintName = 'DBRepo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DBRepo.framework'>

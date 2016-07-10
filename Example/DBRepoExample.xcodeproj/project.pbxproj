@@ -14,6 +14,8 @@
 		FF9593D11D324C5900485E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9593D01D324C5900485E29 /* Assets.xcassets */; };
 		FF9593D41D324C5900485E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9593D21D324C5900485E29 /* LaunchScreen.storyboard */; };
 		FF9593DD1D324E4D00485E29 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF9593DB1D324E4D00485E29 /* Model.xcdatamodeld */; };
+		FF9593E61D32505700485E29 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593E41D32505600485E29 /* Entity+CoreDataProperties.swift */; };
+		FF9593E71D32505700485E29 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593E51D32505700485E29 /* Entity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		FF9593D31D324C5900485E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF9593D51D324C5900485E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9593DC1D324E4D00485E29 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FF9593E41D32505600485E29 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF9593E51D32505700485E29 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		FF9593C81D324C5900485E29 /* DBRepoExample */ = {
 			isa = PBXGroup;
 			children = (
+				FF9593E41D32505600485E29 /* Entity+CoreDataProperties.swift */,
+				FF9593E51D32505700485E29 /* Entity.swift */,
 				FF9593C91D324C5900485E29 /* AppDelegate.swift */,
 				FF9593CB1D324C5900485E29 /* ViewController.swift */,
 				FF9593CD1D324C5900485E29 /* Main.storyboard */,
@@ -214,7 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9593CC1D324C5900485E29 /* ViewController.swift in Sources */,
+				FF9593E71D32505700485E29 /* Entity.swift in Sources */,
 				FF9593CA1D324C5900485E29 /* AppDelegate.swift in Sources */,
+				FF9593E61D32505700485E29 /* Entity+CoreDataProperties.swift in Sources */,
 				FF9593DD1D324E4D00485E29 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
