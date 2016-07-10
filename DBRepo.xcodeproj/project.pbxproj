@@ -16,6 +16,8 @@
 		FF9593A91D306AE800485E29 /* NSManagedObjectContext+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */; };
 		FF9593AD1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */; };
 		FF9593AF1D306F7500485E29 /* NSManagedObject+EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593AE1D306F7500485E29 /* NSManagedObject+EntityType.swift */; };
+		FF9593B11D30F6A500485E29 /* RepoQueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593B01D30F6A500485E29 /* RepoQueryType.swift */; };
+		FF9593B31D30F6EE00485E29 /* NSManagedObjectContext+RepoQueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593B21D30F6EE00485E29 /* NSManagedObjectContext+RepoQueryType.swift */; };
 		FFD0D1671D306427008B7A7C /* DBRepo.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD0D1661D306427008B7A7C /* DBRepo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFD0D16E1D306427008B7A7C /* DBRepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD0D1631D306427008B7A7C /* DBRepo.framework */; };
 		FFD0D1731D306427008B7A7C /* DBRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD0D1721D306427008B7A7C /* DBRepoTests.swift */; };
@@ -41,6 +43,8 @@
 		FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Notifications.swift"; sourceTree = "<group>"; };
 		FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoLifetimeType.swift"; sourceTree = "<group>"; };
 		FF9593AE1D306F7500485E29 /* NSManagedObject+EntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+EntityType.swift"; sourceTree = "<group>"; };
+		FF9593B01D30F6A500485E29 /* RepoQueryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoQueryType.swift; sourceTree = "<group>"; };
+		FF9593B21D30F6EE00485E29 /* NSManagedObjectContext+RepoQueryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoQueryType.swift"; sourceTree = "<group>"; };
 		FFD0D1631D306427008B7A7C /* DBRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DBRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD0D1661D306427008B7A7C /* DBRepo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBRepo.h; sourceTree = "<group>"; };
 		FFD0D1681D306427008B7A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 				FF9593981D30683400485E29 /* CoreData */,
 				FF9593961D30679E00485E29 /* EntityType.swift */,
 				FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */,
+				FF9593B01D30F6A500485E29 /* RepoQueryType.swift */,
 			);
 			path = Repo;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 		FF9593981D30683400485E29 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				FF9593B21D30F6EE00485E29 /* NSManagedObjectContext+RepoQueryType.swift */,
 				FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */,
 				FF9593AE1D306F7500485E29 /* NSManagedObject+EntityType.swift */,
 				FF9593941D3065B000485E29 /* DatabaseConnection.swift */,
@@ -252,8 +258,10 @@
 				FF9593A71D306AE800485E29 /* CoreDataConnection.swift in Sources */,
 				FF9593AF1D306F7500485E29 /* NSManagedObject+EntityType.swift in Sources */,
 				FF9593951D3065B000485E29 /* DatabaseConnection.swift in Sources */,
+				FF9593B31D30F6EE00485E29 /* NSManagedObjectContext+RepoQueryType.swift in Sources */,
 				FF9593AD1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */,
 				FF9593A81D306AE800485E29 /* NSManagedObjectContext+name.swift in Sources */,
+				FF9593B11D30F6A500485E29 /* RepoQueryType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

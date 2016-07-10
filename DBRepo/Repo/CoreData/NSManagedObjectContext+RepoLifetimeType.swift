@@ -11,8 +11,6 @@ import CoreData
 
 extension NSManagedObjectContext : RepoLifetimeType {
     
-    public typealias Entity = NSManagedObject
-    
     public func addEntity<T : EntityType>(type : T.Type) throws -> T {
         guard let managedObject = NSEntityDescription.insertNewObjectForEntityForName(type.className, inManagedObjectContext: self) as? T else {
             throw NSError(domain: "co.uk.danbennett", code: 8001, userInfo: [NSLocalizedDescriptionKey : "No entity matches name \(type.className)"])
@@ -26,4 +24,5 @@ extension NSManagedObjectContext : RepoLifetimeType {
         }
         self.deleteObject(managedObject)
     }
+    
 }

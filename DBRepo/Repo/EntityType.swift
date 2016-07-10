@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol EntityType {
+public protocol EntityType : NSObjectProtocol {
     static var className: String { get }
 }
