@@ -1,0 +1,16 @@
+PODS:
+  - DBRepo/Common (0.0.1)
+  - DBRepo/CoreData (0.0.1):
+    - DBRepo/Common
+
+DEPENDENCIES:
+  - DBRepo/CoreData (from `../`)
+
+EXTERNAL SOURCES:
+  DBRepo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DBRepo: b501b29289d107fc499ae5fa09778d54e0561f45
+
+COCOAPODS: 0.39.0

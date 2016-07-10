@@ -1,0 +1,6 @@
+framework module DBRepo {
+  umbrella header "DBRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}
