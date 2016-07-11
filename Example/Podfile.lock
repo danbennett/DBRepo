@@ -2,15 +2,21 @@ PODS:
   - DBRepo/Common (0.0.1)
   - DBRepo/CoreData (0.0.1):
     - DBRepo/Common
+    - DBRepo/CoreData/Setup (= 0.0.1)
+  - DBRepo/CoreData/Setup (0.0.1):
+    - DBRepo/Common
 
 DEPENDENCIES:
   - DBRepo/CoreData (from `../`)
+  - DBRepo/CoreData/Setup (from `../`)
 
 EXTERNAL SOURCES:
   DBRepo:
     :path: ../
 
 SPEC CHECKSUMS:
-  DBRepo: 9c0dbfa1ba39d10c745cb7e26c03a5acc48bc65e
+  DBRepo: f9eeb4069d9173c5bda389d18c16eef697540acd
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 9254f475adc94b019557c040f040ab4137515333
+
+COCOAPODS: 1.0.1

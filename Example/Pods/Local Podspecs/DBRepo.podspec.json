@@ -26,10 +26,7 @@
     },
     {
       "name": "CoreData",
-      "source_files": [
-        "DBRepo/Repo/CoreData/*.{swift}",
-        "DBRepo/Repo/CoreData/Setup/*.{swift}"
-      ],
+      "source_files": "DBRepo/Repo/CoreData/*.{swift}",
       "dependencies": {
         "DBRepo/Common": [
 
@@ -37,7 +34,16 @@
       },
       "platforms": {
         "ios": "8.0"
-      }
+      },
+      "subspecs": [
+        {
+          "name": "Setup",
+          "source_files": "DBRepo/Repo/CoreData/Setup/*.{swift}",
+          "platforms": {
+            "ios": "8.0"
+          }
+        }
+      ]
     }
   ]
 }

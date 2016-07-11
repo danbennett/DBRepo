@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'DBRepoExample' do
 	pod 'DBRepo/CoreData', :path => '../'
+	pod 'DBRepo/CoreData/Setup', :path => '../'
 end
