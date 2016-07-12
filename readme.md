@@ -75,9 +75,9 @@ The CoreData implmentation extends the NSManagedObjectContext to implement the r
     let moc: NSManagedObjectContext = self.managedObjectContext
 
     if let user = try! moc.fetch(User.self, predicate: nil).first {
-        repo.beginWrite()
-        repo.removeEntity(user)
-        try! repo.endWrite()
+        moc.beginWrite()
+        moc.removeEntity(user)
+        try! moc.endWrite()
     }
 
 # Theading
