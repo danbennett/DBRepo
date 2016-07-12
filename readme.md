@@ -1,11 +1,11 @@
-# HLRepo
+# DBRepo
 
 A core library to create, update, delete and fetch model objects.
 
 The goal is to create an abstraction from the CoreData/Realm/Other using Swift protocols and protocol extensions. 
-The persistence strategy can be changed at compile time.
+By creating an abstraction through protocols the persistence strategy can be changed at compile time.
 
-# Core (Shared)
+# Repostiry protocols
 There are several shared protocols that are used through-out DBRepo for model object management.
 #### RepoQueryType
     func fetch<T : EntityType>(type : T.Type, predicate : NSPredicate?) throws -> [T]
@@ -55,10 +55,12 @@ Calling `removeEntity` will delete the given object from the store.
     
 ## Creating
     let repo : RepoLifetimeType
+
     let user = try! repo.addEntity(User)
 
 ## Deleting
     let repo : protocol<RepoLifetimeType, RepoQueryType, RepoSavingType>
+
     if let user = try! repo.fetch(User.self, predicate: nil).first {
         repo.beginWrite()
         repo.removeEntity(user)
@@ -70,7 +72,7 @@ The CoreData implmentation extends the NSManagedObjectContext to implement the r
 
 # Theading
 It should be noted that an `NSManagedObjectContext` is not thread safe. When using CoreData `NSManagedObjectContext`s cannot be used accross threads.
-As `HLRepo` uses `NSManagedObjectContext` in it's implmenetation the `repo` property should be treated as such.
+As `DBRepo` uses `NSManagedObjectContext` in it's implmenetation the `repo` property should be treated as such.
 
 # Errors
     // TODO: Include exampes.
