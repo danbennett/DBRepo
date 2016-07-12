@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		191867849EA1C5F894F3B828 /* Pods_DBRepoExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D58DFB2C64FF1AAE2C8704 /* Pods_DBRepoExample.framework */; };
+		90D78D59689C2811E112A891 /* Pods_DBRepoExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D96E5DE8E92E29EDF5F1302 /* Pods_DBRepoExample.framework */; };
 		FF9593CA1D324C5900485E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593C91D324C5900485E29 /* AppDelegate.swift */; };
 		FF9593CC1D324C5900485E29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593CB1D324C5900485E29 /* ViewController.swift */; };
 		FF9593CF1D324C5900485E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9593CD1D324C5900485E29 /* Main.storyboard */; };
@@ -19,9 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AE89C30A045D7CF90EE6A42 /* Pods-DBRepoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBRepoExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBRepoExample/Pods-DBRepoExample.release.xcconfig"; sourceTree = "<group>"; };
-		9E9BC4827955830E8A3A8184 /* Pods-DBRepoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBRepoExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBRepoExample/Pods-DBRepoExample.debug.xcconfig"; sourceTree = "<group>"; };
-		E5D58DFB2C64FF1AAE2C8704 /* Pods_DBRepoExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBRepoExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CB9DE874C74F3FAAFA1724 /* Pods-DBRepoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBRepoExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBRepoExample/Pods-DBRepoExample.release.xcconfig"; sourceTree = "<group>"; };
+		3E88DDEEE8CF03B9EC5FAF8D /* Pods-DBRepoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBRepoExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBRepoExample/Pods-DBRepoExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7D96E5DE8E92E29EDF5F1302 /* Pods_DBRepoExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBRepoExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9593C61D324C5800485E29 /* DBRepoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBRepoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9593C91D324C5900485E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9593CB1D324C5900485E29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,26 +39,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				191867849EA1C5F894F3B828 /* Pods_DBRepoExample.framework in Frameworks */,
+				90D78D59689C2811E112A891 /* Pods_DBRepoExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		234831C4CD382E4453C629E6 /* Frameworks */ = {
+		22A0D193A9BDD387AAC906AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5D58DFB2C64FF1AAE2C8704 /* Pods_DBRepoExample.framework */,
+				7D96E5DE8E92E29EDF5F1302 /* Pods_DBRepoExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24A7CE789A206CE738332412 /* Pods */ = {
+		3BB536C36F9AA7C6777A1A1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9E9BC4827955830E8A3A8184 /* Pods-DBRepoExample.debug.xcconfig */,
-				0AE89C30A045D7CF90EE6A42 /* Pods-DBRepoExample.release.xcconfig */,
+				3E88DDEEE8CF03B9EC5FAF8D /* Pods-DBRepoExample.debug.xcconfig */,
+				10CB9DE874C74F3FAAFA1724 /* Pods-DBRepoExample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -68,8 +68,8 @@
 			children = (
 				FF9593C81D324C5900485E29 /* DBRepoExample */,
 				FF9593C71D324C5800485E29 /* Products */,
-				24A7CE789A206CE738332412 /* Pods */,
-				234831C4CD382E4453C629E6 /* Frameworks */,
+				3BB536C36F9AA7C6777A1A1C /* Pods */,
+				22A0D193A9BDD387AAC906AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -336,7 +336,7 @@
 		};
 		FF9593D91D324C5900485E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E9BC4827955830E8A3A8184 /* Pods-DBRepoExample.debug.xcconfig */;
+			baseConfigurationReference = 3E88DDEEE8CF03B9EC5FAF8D /* Pods-DBRepoExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DBRepoExample/Info.plist;
@@ -348,7 +348,7 @@
 		};
 		FF9593DA1D324C5900485E29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AE89C30A045D7CF90EE6A42 /* Pods-DBRepoExample.release.xcconfig */;
+			baseConfigurationReference = 10CB9DE874C74F3FAAFA1724 /* Pods-DBRepoExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DBRepoExample/Info.plist;

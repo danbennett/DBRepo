@@ -7,25 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021CE36C04F7EDEB9A1F90605CF70DBE /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35139EDCBABEEFF35A9CE95AF18A5C5E /* NSManagedObjectContext+RepoLifetimeType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1BBF77BDCCFD43C0D4190A6F7CCCCADD /* Pods-DBRepoExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAAF6FCBAE7DE91B9620959DE7F25DB /* Pods-DBRepoExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28582746C2A8210AC76CD1733FE99AF7 /* RepoSavingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50768C088BBD47473223EB80F5E7EE /* RepoSavingType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		28F3452FFCBBD09F66F027252326F9E8 /* NSManagedObjectContext+RepoSavingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC55788493E1561128CD293D89E316C2 /* NSManagedObjectContext+RepoSavingType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1F14B3A6AD3B587769189F62B28CAF00 /* RepoQueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812DCA05517F261B34C48E2B025829F8 /* RepoQueryType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		235E61F6AA1472F7A5BF5E2B704C630F /* RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318702F34263CC80514EE3E1EECFCE74 /* RepoLifetimeType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		30C2331F55023BBF65F21DD2DDA22B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		32438CF0C2DA05D136A385F8F73D6FCF /* CoreDataConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CDF6F8B5DA87AFD1A7441EE24033A /* CoreDataConnection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4781A4BF96C6CEAA64F7B7C45865DB6D /* NSManagedObject+EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A0F52FF31F911A9850C745BDFF615 /* NSManagedObject+EntityType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		488E7B89C7B94528570C4C96E9857C43 /* NSManagedObjectContext+RepoQueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4755A4C94975E7EF7FCF8E728685FC /* NSManagedObjectContext+RepoQueryType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4915AEC07CEED0BA885D70878DE4E108 /* DatabaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DFACF52DBFFD7C61974D4DE6BDC9A9 /* DatabaseConnection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32D2BF5972A74786BB3B104909BF683E /* RepoSavingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C728CB4248E1D4E4304BF91199A5D /* RepoSavingType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		422541D586CB8FF75CA8D384C177CE28 /* NSManagedObjectContext+RepoSavingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF07C4C6737F74A3763B97C720E4AC4 /* NSManagedObjectContext+RepoSavingType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		476999341115DD80AD7BBEFD0D0193C4 /* DBRepo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC97A3C7CE55B9336C5AD4722408239E /* DBRepo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C3FEE201223F5864B27E681B49C6B6E /* Pods-DBRepoExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC79D34B96B77836E75DA95D37150C /* Pods-DBRepoExample-dummy.m */; };
-		4E4FEC5EF44389ED72C57E267469657E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		4FED310FD0F1AD610AE17D6CC83EE9D1 /* NSManagedObjectContext+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727EB04B408D9B1F96E649C7FB2238DD /* NSManagedObjectContext+name.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		51F353F554FDE911599703774236D8FC /* DBRepo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475DB2E0ECF787B0EF763C7D42EDA3A /* DBRepo-dummy.m */; };
-		72298E78BC3EF9E47D8A1C7679EF170B /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F95AB9FE976586B1049D9325AA0E79 /* NSManagedObjectContext+RepoLifetimeType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		770A914302B4E6C6C93FBFD3153A21EA /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBAB4BC85540AAA168508B4521A965E /* Function.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		84C82B83606E5B4733E08B06659967E4 /* NSManagedObjectContext+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82384FCE09BEC63EE14343DB6D6BD830 /* NSManagedObjectContext+Notifications.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E0B62F5346D37F3AA6489B195BAC0766 /* RepoQueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FDC8A6340E6E349AD392648E72EF7A /* RepoQueryType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E3807768C78166CF5BBBD363F8FACFC1 /* EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E59FCFC589E7A3B3D9ED015A2BC3B94 /* EntityType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E905FBB467EED9F5F47EEDD8B293221C /* RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD05CA5789326FC202F01FB41F4C642 /* RepoLifetimeType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EBF11985B8B4C434C38258BF3EA7FC23 /* DBRepo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEF0B10F23CA962D4A55124B460D5F0 /* DBRepo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5662080C0C7E5BAFE4CEFC8873B6A1C7 /* NSManagedObject+EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A15C78B25185310715A270FB1B4C368 /* NSManagedObject+EntityType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		68F2EF7F1B88F910F93CA9EEA835E032 /* DBRepo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C987F41AD312F5FA0EFC38F39FB9D /* DBRepo-dummy.m */; };
+		C9C3124D4595257BEFAF6E51F77F501C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E8F5DD58086BCE3A06DC3D65B403A535 /* EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259033CF42DEB937B01C47033F4B990 /* EntityType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EAC713D1A53910E5AA1CEA342C1BF865 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4BC0DEA2EA86062EFF708B3A45E836 /* Function.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB41B4CFB7CFB55538E0AD1C5B086515 /* NSManagedObjectContext+RepoQueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493DA28D5F4BF8D1A93C02D7C613311 /* NSManagedObjectContext+RepoQueryType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,41 +29,37 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF9B127FCDB42ABF1B349BF88925378C;
+			remoteGlobalIDString = 99B741DC40540050997CAE21D4172E4A;
 			remoteInfo = DBRepo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BCE410BFBBAA0AA90B337615C975035 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E59FCFC589E7A3B3D9ED015A2BC3B94 /* EntityType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EntityType.swift; sourceTree = "<group>"; };
-		3475DB2E0ECF787B0EF763C7D42EDA3A /* DBRepo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBRepo-dummy.m"; sourceTree = "<group>"; };
+		184C987F41AD312F5FA0EFC38F39FB9D /* DBRepo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBRepo-dummy.m"; sourceTree = "<group>"; };
+		2259033CF42DEB937B01C47033F4B990 /* EntityType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EntityType.swift; sourceTree = "<group>"; };
+		318702F34263CC80514EE3E1EECFCE74 /* RepoLifetimeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RepoLifetimeType.swift; sourceTree = "<group>"; };
 		34F30401C3B9F89841E8091953D02E3E /* DBRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DBRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35139EDCBABEEFF35A9CE95AF18A5C5E /* NSManagedObjectContext+RepoLifetimeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoLifetimeType.swift"; sourceTree = "<group>"; };
 		360DBA7995DE34B9AE5E50A617222F52 /* Pods_DBRepoExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBRepoExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B50768C088BBD47473223EB80F5E7EE /* RepoSavingType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RepoSavingType.swift; sourceTree = "<group>"; };
-		5C4755A4C94975E7EF7FCF8E728685FC /* NSManagedObjectContext+RepoQueryType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoQueryType.swift"; sourceTree = "<group>"; };
+		5493DA28D5F4BF8D1A93C02D7C613311 /* NSManagedObjectContext+RepoQueryType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoQueryType.swift"; sourceTree = "<group>"; };
+		560746F4E5F00BB3BEE027711510873E /* DBRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DBRepo.modulemap; sourceTree = "<group>"; };
+		580C27A254554CEA702970CC4A3C72A9 /* DBRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBRepo-prefix.pch"; sourceTree = "<group>"; };
+		5CAFF30F1EC87E02E0B729FD75256EBE /* DBRepo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBRepo.xcconfig; sourceTree = "<group>"; };
 		659039484F12C65C8F8AAA066034919E /* Pods-DBRepoExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBRepoExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		66F95AB9FE976586B1049D9325AA0E79 /* NSManagedObjectContext+RepoLifetimeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoLifetimeType.swift"; sourceTree = "<group>"; };
-		727EB04B408D9B1F96E649C7FB2238DD /* NSManagedObjectContext+name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+name.swift"; sourceTree = "<group>"; };
-		7CEF0B10F23CA962D4A55124B460D5F0 /* DBRepo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBRepo-umbrella.h"; sourceTree = "<group>"; };
+		6A15C78B25185310715A270FB1B4C368 /* NSManagedObject+EntityType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+EntityType.swift"; sourceTree = "<group>"; };
+		812DCA05517F261B34C48E2B025829F8 /* RepoQueryType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RepoQueryType.swift; sourceTree = "<group>"; };
 		8233C0C975DC85CDA2C516775E7DD37B /* Pods-DBRepoExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBRepoExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82384FCE09BEC63EE14343DB6D6BD830 /* NSManagedObjectContext+Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Notifications.swift"; sourceTree = "<group>"; };
-		825A0F52FF31F911A9850C745BDFF615 /* NSManagedObject+EntityType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+EntityType.swift"; sourceTree = "<group>"; };
-		866FC486CFB53D61E735DF1CF19878F2 /* DBRepo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBRepo.xcconfig; sourceTree = "<group>"; };
-		87DFACF52DBFFD7C61974D4DE6BDC9A9 /* DatabaseConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
-		8BD05CA5789326FC202F01FB41F4C642 /* RepoLifetimeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RepoLifetimeType.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA52A21EC5DCE4FA2353E39331893E6D /* DBRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DBRepo.modulemap; sourceTree = "<group>"; };
-		B48CDF6F8B5DA87AFD1A7441EE24033A /* CoreDataConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreDataConnection.swift; sourceTree = "<group>"; };
-		B4FDC8A6340E6E349AD392648E72EF7A /* RepoQueryType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RepoQueryType.swift; sourceTree = "<group>"; };
-		B7A870EDC0036CC0F0D53B015B02C49D /* DBRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBRepo-prefix.pch"; sourceTree = "<group>"; };
+		AC97A3C7CE55B9336C5AD4722408239E /* DBRepo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBRepo-umbrella.h"; sourceTree = "<group>"; };
+		B3134BC4A6BF7328BB1879A8464429DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8CC79D34B96B77836E75DA95D37150C /* Pods-DBRepoExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBRepoExample-dummy.m"; sourceTree = "<group>"; };
 		BF18D51245EDED9FA2256AAE8CE9D572 /* Pods-DBRepoExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DBRepoExample.modulemap"; sourceTree = "<group>"; };
-		CC55788493E1561128CD293D89E316C2 /* NSManagedObjectContext+RepoSavingType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoSavingType.swift"; sourceTree = "<group>"; };
+		CBF07C4C6737F74A3763B97C720E4AC4 /* NSManagedObjectContext+RepoSavingType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoSavingType.swift"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF4D67585830A5D0E187EC7831AAA147 /* Pods-DBRepoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBRepoExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D40C728CB4248E1D4E4304BF91199A5D /* RepoSavingType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RepoSavingType.swift; sourceTree = "<group>"; };
 		D7F856089DDAC3EA744498AC3391D042 /* Pods-DBRepoExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBRepoExample-resources.sh"; sourceTree = "<group>"; };
-		DCBAB4BC85540AAA168508B4521A965E /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		DD4BC0DEA2EA86062EFF708B3A45E836 /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		E35609BBE661E8AD9B4B8448C56652DE /* Pods-DBRepoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBRepoExample.release.xcconfig"; sourceTree = "<group>"; };
 		EBBD1DB68311A97013CD637942E374C7 /* Pods-DBRepoExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBRepoExample-frameworks.sh"; sourceTree = "<group>"; };
 		EEAAF6FCBAE7DE91B9620959DE7F25DB /* Pods-DBRepoExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBRepoExample-umbrella.h"; sourceTree = "<group>"; };
@@ -75,11 +67,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		371F0DD09AAC8AA6086E3EDC5D2CD8FD /* Frameworks */ = {
+		3FC7CAC6FDA1380DE75693D22159043F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4FEC5EF44389ED72C57E267469657E /* Foundation.framework in Frameworks */,
+				C9C3124D4595257BEFAF6E51F77F501C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,40 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07F61D63233643139AB1BC27CFB26C69 /* CoreData */ = {
+		0D0738B44F1C7D3323D7C24CDDEA7D91 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A496BFF83596B31B2B3EAB640F596818 /* DBRepo */,
-				5DA000B6D84C2B563D5E6B777033BA70 /* Setup */,
+				560746F4E5F00BB3BEE027711510873E /* DBRepo.modulemap */,
+				5CAFF30F1EC87E02E0B729FD75256EBE /* DBRepo.xcconfig */,
+				184C987F41AD312F5FA0EFC38F39FB9D /* DBRepo-dummy.m */,
+				580C27A254554CEA702970CC4A3C72A9 /* DBRepo-prefix.pch */,
+				AC97A3C7CE55B9336C5AD4722408239E /* DBRepo-umbrella.h */,
+				B3134BC4A6BF7328BB1879A8464429DC /* Info.plist */,
 			);
-			name = CoreData;
-			sourceTree = "<group>";
-		};
-		162DD9EE1F61AA237B8FD93CF901EFF1 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				405BBE6D555C42328F57FEB5CEBE9432 /* DBRepo */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		17CBA9B95AB5940941E2EDBB6917EF00 /* Global */ = {
-			isa = PBXGroup;
-			children = (
-				DCBAB4BC85540AAA168508B4521A965E /* Function.swift */,
-			);
-			path = Global;
-			sourceTree = "<group>";
-		};
-		3BD725D8597A2988DF75C1DBB8E87E60 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				825A0F52FF31F911A9850C745BDFF615 /* NSManagedObject+EntityType.swift */,
-				66F95AB9FE976586B1049D9325AA0E79 /* NSManagedObjectContext+RepoLifetimeType.swift */,
-				5C4755A4C94975E7EF7FCF8E728685FC /* NSManagedObjectContext+RepoQueryType.swift */,
-				CC55788493E1561128CD293D89E316C2 /* NSManagedObjectContext+RepoSavingType.swift */,
-			);
-			path = CoreData;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DBRepo";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -138,38 +108,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		405BBE6D555C42328F57FEB5CEBE9432 /* DBRepo */ = {
+		52BCCE6B1F3D8560ADDCA17E8CF642EB /* Repo */ = {
 			isa = PBXGroup;
 			children = (
-				F2DDCC7A9A7DC6A257D3330AAB12556E /* Repo */,
+				F1EDCD9D656BF33B4E01EDD30B1E0ED3 /* CoreData */,
 			);
-			path = DBRepo;
-			sourceTree = "<group>";
-		};
-		421CFF93EA7D696BF20C29DE2588A406 /* Setup */ = {
-			isa = PBXGroup;
-			children = (
-				B48CDF6F8B5DA87AFD1A7441EE24033A /* CoreDataConnection.swift */,
-				727EB04B408D9B1F96E649C7FB2238DD /* NSManagedObjectContext+name.swift */,
-				82384FCE09BEC63EE14343DB6D6BD830 /* NSManagedObjectContext+Notifications.swift */,
-			);
-			path = Setup;
+			path = Repo;
 			sourceTree = "<group>";
 		};
 		56A5909BDF2880693C064B6ADA615493 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA042C5F2EF2940898D08E818036F08A /* DBRepo */,
+				CD08F0A182C175C77A7ADA2459B3C777 /* DBRepo */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5DA000B6D84C2B563D5E6B777033BA70 /* Setup */ = {
+		728430CB3C87FC9F4C2EA118CFB1A244 /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				BA12ADD2DD42BFC24C3CA6830A10303F /* DBRepo */,
+				DD4BC0DEA2EA86062EFF708B3A45E836 /* Function.swift */,
 			);
-			name = Setup;
+			path = Global;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -183,42 +143,28 @@
 			);
 			sourceTree = "<group>";
 		};
-		96BE22113C28F4B24B37A823CDF3BF16 /* Support Files */ = {
+		8E1BC39589C336395CD5CB25B5B04331 /* DBRepo */ = {
 			isa = PBXGroup;
 			children = (
-				AA52A21EC5DCE4FA2353E39331893E6D /* DBRepo.modulemap */,
-				866FC486CFB53D61E735DF1CF19878F2 /* DBRepo.xcconfig */,
-				3475DB2E0ECF787B0EF763C7D42EDA3A /* DBRepo-dummy.m */,
-				B7A870EDC0036CC0F0D53B015B02C49D /* DBRepo-prefix.pch */,
-				7CEF0B10F23CA962D4A55124B460D5F0 /* DBRepo-umbrella.h */,
-				2BCE410BFBBAA0AA90B337615C975035 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DBRepo";
-			sourceTree = "<group>";
-		};
-		9ECC7855C9AEDB0B6B9620ED5EC427A7 /* Repo */ = {
-			isa = PBXGroup;
-			children = (
-				3BD725D8597A2988DF75C1DBB8E87E60 /* CoreData */,
-			);
-			path = Repo;
-			sourceTree = "<group>";
-		};
-		A496BFF83596B31B2B3EAB640F596818 /* DBRepo */ = {
-			isa = PBXGroup;
-			children = (
-				9ECC7855C9AEDB0B6B9620ED5EC427A7 /* Repo */,
+				52BCCE6B1F3D8560ADDCA17E8CF642EB /* Repo */,
 			);
 			path = DBRepo;
 			sourceTree = "<group>";
 		};
-		AEF03421D89BF6EEDC681CA4E7EB6326 /* Repo */ = {
+		A803DFC8125C958B34A0E29FC950A856 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				D28216A3D9413407F70CDFE4187DA48B /* CoreData */,
+				AF8C94677E0CC19ABB4E13A7F37DB690 /* DBRepo */,
 			);
-			path = Repo;
+			name = Common;
+			sourceTree = "<group>";
+		};
+		AF8C94677E0CC19ABB4E13A7F37DB690 /* DBRepo */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF0D5DCC7B6DC00AC8DD5306D81149 /* Repo */,
+			);
+			path = DBRepo;
 			sourceTree = "<group>";
 		};
 		B3A0586FFB864F87B1F851CFA42A260F /* Products */ = {
@@ -228,14 +174,6 @@
 				360DBA7995DE34B9AE5E50A617222F52 /* Pods_DBRepoExample.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BA12ADD2DD42BFC24C3CA6830A10303F /* DBRepo */ = {
-			isa = PBXGroup;
-			children = (
-				AEF03421D89BF6EEDC681CA4E7EB6326 /* Repo */,
-			);
-			path = DBRepo;
 			sourceTree = "<group>";
 		};
 		BB27130C920DC5C077592FF8678FCDFC /* Pods-DBRepoExample */ = {
@@ -264,25 +202,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D28216A3D9413407F70CDFE4187DA48B /* CoreData */ = {
+		CD08F0A182C175C77A7ADA2459B3C777 /* DBRepo */ = {
 			isa = PBXGroup;
 			children = (
-				421CFF93EA7D696BF20C29DE2588A406 /* Setup */,
+				A803DFC8125C958B34A0E29FC950A856 /* Common */,
+				DAA2507E80B1AE818C56BC080493D6F5 /* CoreData */,
+				0D0738B44F1C7D3323D7C24CDDEA7D91 /* Support Files */,
 			);
-			path = CoreData;
+			name = DBRepo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		F2DDCC7A9A7DC6A257D3330AAB12556E /* Repo */ = {
+		D1FF0D5DCC7B6DC00AC8DD5306D81149 /* Repo */ = {
 			isa = PBXGroup;
 			children = (
-				87DFACF52DBFFD7C61974D4DE6BDC9A9 /* DatabaseConnection.swift */,
-				2E59FCFC589E7A3B3D9ED015A2BC3B94 /* EntityType.swift */,
-				8BD05CA5789326FC202F01FB41F4C642 /* RepoLifetimeType.swift */,
-				B4FDC8A6340E6E349AD392648E72EF7A /* RepoQueryType.swift */,
-				5B50768C088BBD47473223EB80F5E7EE /* RepoSavingType.swift */,
-				17CBA9B95AB5940941E2EDBB6917EF00 /* Global */,
+				2259033CF42DEB937B01C47033F4B990 /* EntityType.swift */,
+				318702F34263CC80514EE3E1EECFCE74 /* RepoLifetimeType.swift */,
+				812DCA05517F261B34C48E2B025829F8 /* RepoQueryType.swift */,
+				D40C728CB4248E1D4E4304BF91199A5D /* RepoSavingType.swift */,
+				728430CB3C87FC9F4C2EA118CFB1A244 /* Global */,
 			);
 			path = Repo;
+			sourceTree = "<group>";
+		};
+		DAA2507E80B1AE818C56BC080493D6F5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8E1BC39589C336395CD5CB25B5B04331 /* DBRepo */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		F1EDCD9D656BF33B4E01EDD30B1E0ED3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6A15C78B25185310715A270FB1B4C368 /* NSManagedObject+EntityType.swift */,
+				35139EDCBABEEFF35A9CE95AF18A5C5E /* NSManagedObjectContext+RepoLifetimeType.swift */,
+				5493DA28D5F4BF8D1A93C02D7C613311 /* NSManagedObjectContext+RepoQueryType.swift */,
+				CBF07C4C6737F74A3763B97C720E4AC4 /* NSManagedObjectContext+RepoSavingType.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		F7C62DD5BA83C3ADD9EE74F78AFDB6DC /* Targets Support Files */ = {
@@ -293,25 +252,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FA042C5F2EF2940898D08E818036F08A /* DBRepo */ = {
-			isa = PBXGroup;
-			children = (
-				162DD9EE1F61AA237B8FD93CF901EFF1 /* Common */,
-				07F61D63233643139AB1BC27CFB26C69 /* CoreData */,
-				96BE22113C28F4B24B37A823CDF3BF16 /* Support Files */,
-			);
-			name = DBRepo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5D4FFC0EFD691F6E4636EB9988863A68 /* Headers */ = {
+		5A8623FA1DD9CE59B0BEBEC66BA8C81B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF11985B8B4C434C38258BF3EA7FC23 /* DBRepo-umbrella.h in Headers */,
+				476999341115DD80AD7BBEFD0D0193C4 /* DBRepo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,13 +292,13 @@
 			productReference = 360DBA7995DE34B9AE5E50A617222F52 /* Pods_DBRepoExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FF9B127FCDB42ABF1B349BF88925378C /* DBRepo */ = {
+		99B741DC40540050997CAE21D4172E4A /* DBRepo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F84DBCE83015D7723C10DC2974D42D9D /* Build configuration list for PBXNativeTarget "DBRepo" */;
+			buildConfigurationList = 678869867D784039B0E58A71EAC8E294 /* Build configuration list for PBXNativeTarget "DBRepo" */;
 			buildPhases = (
-				E9CFB79BFC8127C4A326F8B0A890CF8A /* Sources */,
-				371F0DD09AAC8AA6086E3EDC5D2CD8FD /* Frameworks */,
-				5D4FFC0EFD691F6E4636EB9988863A68 /* Headers */,
+				BE9F0A1BA1304BD9B4BC6D7FD2B996CA /* Sources */,
+				3FC7CAC6FDA1380DE75693D22159043F /* Frameworks */,
+				5A8623FA1DD9CE59B0BEBEC66BA8C81B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -382,31 +330,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF9B127FCDB42ABF1B349BF88925378C /* DBRepo */,
+				99B741DC40540050997CAE21D4172E4A /* DBRepo */,
 				112D77AEF9DA7BBCB7108054037DB8FC /* Pods-DBRepoExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E9CFB79BFC8127C4A326F8B0A890CF8A /* Sources */ = {
+		BE9F0A1BA1304BD9B4BC6D7FD2B996CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32438CF0C2DA05D136A385F8F73D6FCF /* CoreDataConnection.swift in Sources */,
-				4915AEC07CEED0BA885D70878DE4E108 /* DatabaseConnection.swift in Sources */,
-				51F353F554FDE911599703774236D8FC /* DBRepo-dummy.m in Sources */,
-				E3807768C78166CF5BBBD363F8FACFC1 /* EntityType.swift in Sources */,
-				770A914302B4E6C6C93FBFD3153A21EA /* Function.swift in Sources */,
-				4781A4BF96C6CEAA64F7B7C45865DB6D /* NSManagedObject+EntityType.swift in Sources */,
-				4FED310FD0F1AD610AE17D6CC83EE9D1 /* NSManagedObjectContext+name.swift in Sources */,
-				84C82B83606E5B4733E08B06659967E4 /* NSManagedObjectContext+Notifications.swift in Sources */,
-				72298E78BC3EF9E47D8A1C7679EF170B /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */,
-				488E7B89C7B94528570C4C96E9857C43 /* NSManagedObjectContext+RepoQueryType.swift in Sources */,
-				28F3452FFCBBD09F66F027252326F9E8 /* NSManagedObjectContext+RepoSavingType.swift in Sources */,
-				E905FBB467EED9F5F47EEDD8B293221C /* RepoLifetimeType.swift in Sources */,
-				E0B62F5346D37F3AA6489B195BAC0766 /* RepoQueryType.swift in Sources */,
-				28582746C2A8210AC76CD1733FE99AF7 /* RepoSavingType.swift in Sources */,
+				68F2EF7F1B88F910F93CA9EEA835E032 /* DBRepo-dummy.m in Sources */,
+				E8F5DD58086BCE3A06DC3D65B403A535 /* EntityType.swift in Sources */,
+				EAC713D1A53910E5AA1CEA342C1BF865 /* Function.swift in Sources */,
+				5662080C0C7E5BAFE4CEFC8873B6A1C7 /* NSManagedObject+EntityType.swift in Sources */,
+				021CE36C04F7EDEB9A1F90605CF70DBE /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */,
+				FB41B4CFB7CFB55538E0AD1C5B086515 /* NSManagedObjectContext+RepoQueryType.swift in Sources */,
+				422541D586CB8FF75CA8D384C177CE28 /* NSManagedObjectContext+RepoSavingType.swift in Sources */,
+				235E61F6AA1472F7A5BF5E2B704C630F /* RepoLifetimeType.swift in Sources */,
+				1F14B3A6AD3B587769189F62B28CAF00 /* RepoQueryType.swift in Sources */,
+				32D2BF5972A74786BB3B104909BF683E /* RepoSavingType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +368,7 @@
 		B0DA6629B52696B55D976336AF458724 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DBRepo;
-			target = FF9B127FCDB42ABF1B349BF88925378C /* DBRepo */;
+			target = 99B741DC40540050997CAE21D4172E4A /* DBRepo */;
 			targetProxy = 6AADF153DBB125EF1554D80E735C2278 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -505,6 +449,36 @@
 			};
 			name = Debug;
 		};
+		6A116ABBCFCA4FE8AAB8EFCE92974D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CAFF30F1EC87E02E0B729FD75256EBE /* DBRepo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DBRepo/DBRepo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DBRepo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DBRepo/DBRepo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DBRepo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -543,9 +517,9 @@
 			};
 			name = Release;
 		};
-		C9D6AB3FB807C3779C6DA5EBD63443BA /* Release */ = {
+		D1941DE7DEF0EBADF90EA24A82E6A128 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 866FC486CFB53D61E735DF1CF19878F2 /* DBRepo.xcconfig */;
+			baseConfigurationReference = 5CAFF30F1EC87E02E0B729FD75256EBE /* DBRepo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -606,36 +580,6 @@
 			};
 			name = Debug;
 		};
-		E8C763F283A62BEE9408E70BB9DC9366 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 866FC486CFB53D61E735DF1CF19878F2 /* DBRepo.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DBRepo/DBRepo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DBRepo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DBRepo/DBRepo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DBRepo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -648,20 +592,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		678869867D784039B0E58A71EAC8E294 /* Build configuration list for PBXNativeTarget "DBRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A116ABBCFCA4FE8AAB8EFCE92974D77 /* Debug */,
+				D1941DE7DEF0EBADF90EA24A82E6A128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B253548FDCBE0F15667ACEA37C324039 /* Build configuration list for PBXNativeTarget "Pods-DBRepoExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4B300F5679456AB8AB0A6A028D569F4 /* Debug */,
 				470D6F2FBBFC4801B1E13CB2A3AF5E75 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F84DBCE83015D7723C10DC2974D42D9D /* Build configuration list for PBXNativeTarget "DBRepo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8C763F283A62BEE9408E70BB9DC9366 /* Debug */,
-				C9D6AB3FB807C3779C6DA5EBD63443BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

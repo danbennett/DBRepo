@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FF9593921D30647000485E29 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9593911D30647000485E29 /* CoreData.framework */; };
-		FF9593951D3065B000485E29 /* DatabaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593941D3065B000485E29 /* DatabaseConnection.swift */; };
 		FF9593971D30679E00485E29 /* EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593961D30679E00485E29 /* EntityType.swift */; };
 		FF9593A21D306AAB00485E29 /* RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */; };
-		FF9593A71D306AE800485E29 /* CoreDataConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A41D306AE800485E29 /* CoreDataConnection.swift */; };
-		FF9593A81D306AE800485E29 /* NSManagedObjectContext+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A51D306AE800485E29 /* NSManagedObjectContext+name.swift */; };
-		FF9593A91D306AE800485E29 /* NSManagedObjectContext+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */; };
 		FF9593AD1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */; };
 		FF9593AF1D306F7500485E29 /* NSManagedObject+EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593AE1D306F7500485E29 /* NSManagedObject+EntityType.swift */; };
 		FF9593B11D30F6A500485E29 /* RepoQueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9593B01D30F6A500485E29 /* RepoQueryType.swift */; };
@@ -38,12 +34,8 @@
 
 /* Begin PBXFileReference section */
 		FF9593911D30647000485E29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		FF9593941D3065B000485E29 /* DatabaseConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
 		FF9593961D30679E00485E29 /* EntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityType.swift; sourceTree = "<group>"; };
 		FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoLifetimeType.swift; sourceTree = "<group>"; };
-		FF9593A41D306AE800485E29 /* CoreDataConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataConnection.swift; sourceTree = "<group>"; };
-		FF9593A51D306AE800485E29 /* NSManagedObjectContext+name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+name.swift"; sourceTree = "<group>"; };
-		FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Notifications.swift"; sourceTree = "<group>"; };
 		FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+RepoLifetimeType.swift"; sourceTree = "<group>"; };
 		FF9593AE1D306F7500485E29 /* NSManagedObject+EntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+EntityType.swift"; sourceTree = "<group>"; };
 		FF9593B01D30F6A500485E29 /* RepoQueryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoQueryType.swift; sourceTree = "<group>"; };
@@ -84,7 +76,6 @@
 			children = (
 				FF9593B61D324A3F00485E29 /* Global */,
 				FF9593981D30683400485E29 /* CoreData */,
-				FF9593941D3065B000485E29 /* DatabaseConnection.swift */,
 				FF9593961D30679E00485E29 /* EntityType.swift */,
 				FF9593A11D306AAB00485E29 /* RepoLifetimeType.swift */,
 				FF9593B01D30F6A500485E29 /* RepoQueryType.swift */,
@@ -100,19 +91,8 @@
 				FF9593B21D30F6EE00485E29 /* NSManagedObjectContext+RepoQueryType.swift */,
 				FF9593AC1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift */,
 				FF9593AE1D306F7500485E29 /* NSManagedObject+EntityType.swift */,
-				FF9593A31D306ADC00485E29 /* Setup */,
 			);
 			path = CoreData;
-			sourceTree = "<group>";
-		};
-		FF9593A31D306ADC00485E29 /* Setup */ = {
-			isa = PBXGroup;
-			children = (
-				FF9593A41D306AE800485E29 /* CoreDataConnection.swift */,
-				FF9593A51D306AE800485E29 /* NSManagedObjectContext+name.swift */,
-				FF9593A61D306AE800485E29 /* NSManagedObjectContext+Notifications.swift */,
-			);
-			path = Setup;
 			sourceTree = "<group>";
 		};
 		FF9593B61D324A3F00485E29 /* Global */ = {
@@ -271,16 +251,12 @@
 			files = (
 				FF9593A21D306AAB00485E29 /* RepoLifetimeType.swift in Sources */,
 				FF9593971D30679E00485E29 /* EntityType.swift in Sources */,
-				FF9593A91D306AE800485E29 /* NSManagedObjectContext+Notifications.swift in Sources */,
-				FF9593A71D306AE800485E29 /* CoreDataConnection.swift in Sources */,
 				FF9593BC1D324AB400485E29 /* NSManagedObjectContext+RepoSavingType.swift in Sources */,
 				FF9593AF1D306F7500485E29 /* NSManagedObject+EntityType.swift in Sources */,
-				FF9593951D3065B000485E29 /* DatabaseConnection.swift in Sources */,
 				FF9593B81D324A3F00485E29 /* Function.swift in Sources */,
 				FF9593BA1D324A5E00485E29 /* RepoSavingType.swift in Sources */,
 				FF9593B31D30F6EE00485E29 /* NSManagedObjectContext+RepoQueryType.swift in Sources */,
 				FF9593AD1D306B8600485E29 /* NSManagedObjectContext+RepoLifetimeType.swift in Sources */,
-				FF9593A81D306AE800485E29 /* NSManagedObjectContext+name.swift in Sources */,
 				FF9593B11D30F6A500485E29 /* RepoQueryType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
