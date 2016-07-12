@@ -6,7 +6,7 @@ The goal is to create an abstraction from the CoreData/Realm/Other using Swift p
 By creating an abstraction through protocols the persistence strategy can be changed at compile time.
 
 # Repostiry protocols
-There are several shared protocols that are used through-out DBRepo for model object management.
+There are several protocols that are used throughout DBRepo for model object management. These can be used as mixins on concrete classes or protocol extensions.
 #### RepoQueryType
     func fetch<T : EntityType>(type : T.Type, predicate : NSPredicate?) throws -> [T]
 Given an argument of an `EntityType` type `fetch` shall return an array of that type. An optional `NSPredicate` can be provided to filter the query.
@@ -69,6 +69,16 @@ Calling `removeEntity` will delete the given object from the store.
 
 # CoreData
 The CoreData implmentation extends the NSManagedObjectContext to implement the repository protocols from the core library.
+
+## Setup
+    // .. CoreData setup...
+    let moc: self.managedObjectContext
+
+    if let user = try! moc.fetch(User.self, predicate: nil).first {
+        repo.beginWrite()
+        repo.removeEntity(user)
+        try! repo.endWrite()
+    }
 
 # Theading
 It should be noted that an `NSManagedObjectContext` is not thread safe. When using CoreData `NSManagedObjectContext`s cannot be used accross threads.
