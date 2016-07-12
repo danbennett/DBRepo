@@ -72,7 +72,7 @@ The CoreData implmentation extends the NSManagedObjectContext to implement the r
 
 ## Setup
     // .. CoreData setup...
-    let moc: self.managedObjectContext
+    let moc: NSManagedObjectContext = self.managedObjectContext
 
     if let user = try! moc.fetch(User.self, predicate: nil).first {
         repo.beginWrite()
